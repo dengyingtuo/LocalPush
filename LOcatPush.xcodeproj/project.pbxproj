@@ -13,6 +13,10 @@
 		045D3AC220BAADAB009E80E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045D3AC120BAADAB009E80E0 /* Assets.xcassets */; };
 		045D3AC520BAADAB009E80E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045D3AC320BAADAB009E80E0 /* LaunchScreen.storyboard */; };
 		045D3AC820BAADAB009E80E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D3AC720BAADAB009E80E0 /* main.m */; };
+		045D3AD520BAADC8009E80E0 /* AppDelegate+SelfPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D3AD020BAADC8009E80E0 /* AppDelegate+SelfPush.m */; };
+		045D3AD620BAADC8009E80E0 /* imageName@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 045D3AD120BAADC8009E80E0 /* imageName@2x.png */; };
+		045D3AD720BAADC8009E80E0 /* LocalPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D3AD320BAADC8009E80E0 /* LocalPush.m */; };
+		045D3AD820BAADC8009E80E0 /* WeChatSight1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 045D3AD420BAADC8009E80E0 /* WeChatSight1.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,12 @@
 		045D3AC420BAADAB009E80E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		045D3AC620BAADAB009E80E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		045D3AC720BAADAB009E80E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		045D3ACF20BAADC8009E80E0 /* AppDelegate+SelfPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+SelfPush.h"; sourceTree = "<group>"; };
+		045D3AD020BAADC8009E80E0 /* AppDelegate+SelfPush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+SelfPush.m"; sourceTree = "<group>"; };
+		045D3AD120BAADC8009E80E0 /* imageName@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imageName@2x.png"; sourceTree = "<group>"; };
+		045D3AD220BAADC8009E80E0 /* LocalPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalPush.h; sourceTree = "<group>"; };
+		045D3AD320BAADC8009E80E0 /* LocalPush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalPush.m; sourceTree = "<group>"; };
+		045D3AD420BAADC8009E80E0 /* WeChatSight1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = WeChatSight1.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +72,7 @@
 				045D3AB920BAADA1009E80E0 /* AppDelegate.m */,
 				045D3ABB20BAADA1009E80E0 /* ViewController.h */,
 				045D3ABC20BAADA1009E80E0 /* ViewController.m */,
+				045D3ACE20BAADC8009E80E0 /* LocalPush */,
 				045D3ABE20BAADA1009E80E0 /* Main.storyboard */,
 				045D3AC120BAADAB009E80E0 /* Assets.xcassets */,
 				045D3AC320BAADAB009E80E0 /* LaunchScreen.storyboard */,
@@ -69,6 +80,19 @@
 				045D3AC720BAADAB009E80E0 /* main.m */,
 			);
 			path = LOcatPush;
+			sourceTree = "<group>";
+		};
+		045D3ACE20BAADC8009E80E0 /* LocalPush */ = {
+			isa = PBXGroup;
+			children = (
+				045D3ACF20BAADC8009E80E0 /* AppDelegate+SelfPush.h */,
+				045D3AD020BAADC8009E80E0 /* AppDelegate+SelfPush.m */,
+				045D3AD120BAADC8009E80E0 /* imageName@2x.png */,
+				045D3AD220BAADC8009E80E0 /* LocalPush.h */,
+				045D3AD320BAADC8009E80E0 /* LocalPush.m */,
+				045D3AD420BAADC8009E80E0 /* WeChatSight1.mp4 */,
+			);
+			path = LocalPush;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,7 +153,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				045D3AC520BAADAB009E80E0 /* LaunchScreen.storyboard in Resources */,
+				045D3AD620BAADC8009E80E0 /* imageName@2x.png in Resources */,
 				045D3AC220BAADAB009E80E0 /* Assets.xcassets in Resources */,
+				045D3AD820BAADC8009E80E0 /* WeChatSight1.mp4 in Resources */,
 				045D3AC020BAADA1009E80E0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,7 +168,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				045D3ABD20BAADA1009E80E0 /* ViewController.m in Sources */,
+				045D3AD720BAADC8009E80E0 /* LocalPush.m in Sources */,
 				045D3AC820BAADAB009E80E0 /* main.m in Sources */,
+				045D3AD520BAADC8009E80E0 /* AppDelegate+SelfPush.m in Sources */,
 				045D3ABA20BAADA1009E80E0 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

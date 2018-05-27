@@ -25,6 +25,7 @@
     [LocalPush SharePushFromTitle:@"小明对你说：" subtitle:@"你今天中午吃的啥呀啊？" userInfo:@{@"2":@"yyyuuuui"}];
 
     [LocalPush SharePushFromTitle:@"行程提醒" subtitle:@"下午三点有会，请准时参加！" body:nil userInfo:nil afterDelay:10];
+    
 //    [LocalPush SharePushFromTitle:@"行程提醒" subtitle:@"下午三点有会，请准时参加！" body:nil userInfo:nil afterDelay:20];
 //    [LocalPush SharePushFromTitle:@"行程提醒" subtitle:@"下午三点有会，请准时参加！" body:nil userInfo:nil afterDelay:30];
 }
